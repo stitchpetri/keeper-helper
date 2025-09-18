@@ -1,0 +1,12 @@
+{
+  "name": "vite-react",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:20",
+  "postCreateCommand": "corepack enable && npm ci || npm i",
+  "forwardPorts": [5173],
+  "portsAttributes": { "5173": { "label": "Vite", "onAutoForward": "openPreview" } },
+  "customizations": {
+    "vscode": {
+      "extensions": ["esbenp.prettier-vscode","dbaeumer.vscode-eslint","bradlc.vscode-tailwindcss"]
+    }
+  }
+}
