@@ -1,5 +1,5 @@
 import Header from './components/header'
-import Footer from './components/Footer'
+import Footer from './components/footer'
 import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
 import SOPs from './pages/SOPs'
