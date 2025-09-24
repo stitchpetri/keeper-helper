@@ -14,7 +14,6 @@ return (
     <header className="border-b">
         <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
             <NavLink to="/" className="flex items-center gap-3">
-                <span className="text-2xl">🐾</span>
                 <span className="text-lg font-semibold tracking-wide">Keeper Helper</span>
             </NavLink>
             <nav className="flex items-center gap-2">
